@@ -17,18 +17,10 @@ This repository contains code, covering three important topics: A* search, simpl
 1. **A* Search**
    - `maze.py`: Python script representing the maze/grid environment.
    - `hwu_search.py`: Python implementation of the A* search algorithm, used to find the optimal path in the maze.
-   - **How to Run**:
-     ```
-     python hwu_search.py
-     ```
+  
 2. **Prolog Monster Analysis**
    - `monster.pl`: Prolog code defining monster types, moves, and effectiveness.
    - `output_prolog.txt`: Example output showing results of various queries.
-   - **How to Run**:
-     ```
-     swipl
-     [monster].
-     ```
 3. **Automated Planning (PDDL)**
    - `domain.pddl`: PDDL domain file.
    - `problem1.pddl`, `problem2.pddl`, etc.: PDDL problem files.
