@@ -1,0 +1,77 @@
+Query 1 (monster type):
+
+basicType(normal). : True
+
+Query 2 (monster and monster types):
+
+monster(mabosstiff, dark). : True
+
+
+Query 3 (monster and monster moves):
+
+move(closeCombat, dark). : False
+
+
+Query 4 (Define monsters moves):
+
+monsterMove(lechonk, closeCombat). : False
+
+Query 5 ( effectiveness between monster types)
+
+typeEffectiveness(strong,dark, psychic). : True
+
+Query 6 (hierarchy for effectiveness):
+
+moreEffective(strong, ordinary). : True
+
+Query 7(transitive effectiveness rules)
+
+
+moreEffectiveThan(E1, E2) : 
+strong,ordinary
+ordinary,weak
+weak,superweak
+strong,weak
+strong,superweak
+ordinary,superweak
+
+
+Query 8 (matching monster moves) :
+
+monsterMoveMatch(T, flamigo, annihilape, MV) :
+
+fighting,lowKick
+
+monsterMoveMatch(T, flamigo, mabosstiff, MV):
+
+False
+
+Query 9 (monster moves effectiveness for a specific monster type.) : 
+
+moreEffectiveMoveType(snarl, MV2, ghost)
+
+psybeam	
+zenHeadbutt
+lowKick
+closeCombat
+bodySlam
+quickAttack
+megaKick
+tackle
+takeDown
+
+
+Query 10 (monster with monster move effectiveness against another monster with monster move) :
+
+moreEffectiveMove(lechonk, MV1, flamigo, MV2):
+
+zenHeadbutt	megaKick	1
+zenHeadbutt	payback
+
+
+
+
+
+
+
+
