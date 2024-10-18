@@ -22,7 +22,5 @@ This repository contains code, covering three important topics: A* search, simpl
    - `monster.pl`: Prolog code defining monster types, moves, and effectiveness.
    - `output_prolog.txt`: Example output showing results of various queries.
 3. **Automated Planning (PDDL)**
-   - `domain.pddl`: PDDL domain file.
-   - `problem1.pddl`, `problem2.pddl`, etc.: PDDL problem files.
-   - `report.pdf`: Explains the planning approach, problem definitions, and results.
+   - `domain.pddl`: PDDL domain file
 
