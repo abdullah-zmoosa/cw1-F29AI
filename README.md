@@ -11,7 +11,6 @@ This repository contains code, covering three important topics: A* search, simpl
 
 ## Automated Planning (PDDL)
 - **PDDL Files**: Includes the domain file and multiple problem files to define the automated planning tasks.
-- **Report**: A PDF report is provided that explains the planning problems, domain definition, and solutions.
 
 ## Repository Structure
 1. **A* Search**
